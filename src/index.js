@@ -3,11 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MuiDemo from './Component/MUICheck';
+import Header from './Component/Header';
+import SignIn from './Component/SignIn';
+import EmployeeForm from './Component/EmployeeForm';
+import SignUp from './Component/SignUp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Header/>
+    <SignUp/>
+    <SignIn/>
+    <EmployeeForm/>
+    {/* <MuiDemo /> */}
   </React.StrictMode>
 );
 
